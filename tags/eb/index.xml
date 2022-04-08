@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eb on 文面筆記</title>
+    <link>https://blog.yuwenchen.tw/ch/tags/eb/</link>
+    <description>Recent content in eb on 文面筆記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_tw</language>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.yuwenchen.tw/ch/tags/eb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Elastic Beanstalk 修改 nginx.conf</title>
+      <link>https://blog.yuwenchen.tw/ch/post/2021_aws_eb_nginx/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/post/2021_aws_eb_nginx/</guid>
+      <description>背景 最近在優化架在aws上網站的載入速度，其中一項是建議開啟gzip功能。而因為 nginx.conf 內預設的 gzip 是 off 的，因此花了許多時間測試要怎麼把 gzip 的設定覆寫，這裡記錄一下最後成功的結果，以防下次又要全部重找。
+方式 單純附加在原 nginx.conf 檔案後  於project的資料夾創建 .ebextensions/nginx/conf.d 三層資料夾，再創建要附加的檔案，這裡示範的叫 myconf.conf 。  |-- .ebextensions | `-- nginx | `-- conf.d | `-- myconf.conf 編輯 myconf.conf 檔  &amp;#34;/etc/nginx/conf.d/elasticbeanstalk/myconf.conf&amp;#34; : mode: &amp;#34;000755&amp;#34; owner: root group: root content: | 要附加的設定，例如： client_max_body_size 20M; container_commands: 01__nginx_reload: command: &amp;#34;sudo nginx -s reload&amp;#34; deploy 至 elastic beanstalk  直接改寫整個 nginx.conf 檔案  於project的資料夾創建 .platform/nginx 兩層資料夾，再創建要覆寫 nginx.conf 。  |-- .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>資料視覺化 on 文面筆記</title>
+    <link>https://blog.yuwenchen.tw/ch/tags/%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96/</link>
+    <description>Recent content in 資料視覺化 on 文面筆記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_tw</language>
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.yuwenchen.tw/ch/tags/%E8%B3%87%E6%96%99%E8%A6%96%E8%A6%BA%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matplotlib Basemap 繪製台灣地圖</title>
+      <link>https://blog.yuwenchen.tw/ch/post/2021_plot_basemap/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/post/2021_plot_basemap/</guid>
+      <description>先前從ncl轉到python時，研究了一下怎麼繪製地圖，找到利用 Matplotlib 和 Basemap 繪製不同地圖的方式，這裡簡單紀錄並呈現不同選項的差異，提供大家選擇適合的模式。
+*現在已經不再更新，建議改用cartopy。
+%matplotlib inline import matplotlib.pyplot as plt from mpl_toolkits.basemap import Basemap import numpy as np # set map region minLat, maxLat = 21.75, 25.5 minLon, maxLon = 119.25, 122.5 # White Background  fig = plt.figure(figsize=(6, 9)) ax = fig.add_axes([0.025, 0.025, 0.925, 0.925])  # plot map m = Basemap(projection=&amp;#39;cyl&amp;#39;,resolution=&amp;#39;h&amp;#39;,llcrnrlat=minLat, \  urcrnrlat=maxLat, llcrnrlon=minLon, urcrnrlon=maxLon, ax=ax) m.drawcoastlines(color=&amp;#39;k&amp;#39;) m.drawcountries(color=&amp;#39;k&amp;#39;) # draw parallels. parallels = np.arange(21., 26.1, 1.</description>
+    </item>
+    
+  </channel>
+</rss>

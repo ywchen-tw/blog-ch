@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 文面筆記</title>
+    <link>https://blog.yuwenchen.tw/ch/categories/</link>
+    <description>Recent content in Categories on 文面筆記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_tw</language>
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.yuwenchen.tw/ch/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>留學-日常</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E7%95%99%E5%AD%B8-%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E7%95%99%E5%AD%B8-%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旅遊-美國</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E6%97%85%E9%81%8A-%E7%BE%8E%E5%9C%8B/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E6%97%85%E9%81%8A-%E7%BE%8E%E5%9C%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>筆記-AWS</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E7%AD%86%E8%A8%98-aws/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E7%AD%86%E8%A8%98-aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>留學</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E7%95%99%E5%AD%B8/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E7%95%99%E5%AD%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旅遊-台灣</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E6%97%85%E9%81%8A-%E5%8F%B0%E7%81%A3/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E6%97%85%E9%81%8A-%E5%8F%B0%E7%81%A3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>筆記-Python</title>
+      <link>https://blog.yuwenchen.tw/ch/categories/%E7%AD%86%E8%A8%98-python/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.yuwenchen.tw/ch/categories/%E7%AD%86%E8%A8%98-python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
